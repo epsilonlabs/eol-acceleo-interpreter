@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Acceleo EOL Interpeter
+Bundle-SymbolicName: org.eclipse.epsilon.acceleo.interpreter;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: org.eclipse.epsilon.acceleo.interpeter
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.acceleo.ui.interpreter,
+ org.eclipse.acceleo.ui.interpreter,
+ org.eclipse.epsilon.eol.engine,
+ org.eclipse.core.runtime
+Export-Package: org.eclipse.epsilon.acceleo.interpreter

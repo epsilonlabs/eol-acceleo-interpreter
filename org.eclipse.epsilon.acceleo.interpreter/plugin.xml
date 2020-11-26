@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.acceleo.ui.language.interpreter">
+      <languageInterpreter
+            class="org.eclipse.epsilon.acceleo.interpreter.EolInterpreter"
+            icon="icons/eol.png"
+            label="EOL">
+      </languageInterpreter>
+   </extension>
+   <extension
+         point="org.eclipse.acceleo.ui.language.interpreter">
+      <languageInterpreter
+            class="org.eclipse.epsilon.acceleo.interpreter.AbstractLanguageInterpreter:2"
+            label="org.eclipse.epsilon.acceleo.interpeter.languageInterpreter2">
+      </languageInterpreter>
+   </extension>
+
+</plugin>
