@@ -1,4 +1,4 @@
-package org.eclipse.epsilon.acceleo.interpreter;
+package org.eclipse.epsilon.eol.dt.interpreter;
 
 import java.util.List;
 import java.util.concurrent.Callable;

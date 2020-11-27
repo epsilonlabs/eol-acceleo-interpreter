@@ -4,7 +4,7 @@
    <extension
          point="org.eclipse.acceleo.ui.language.interpreter">
       <languageInterpreter
-            class="org.eclipse.epsilon.acceleo.interpreter.EolInterpreter"
+            class="org.eclipse.epsilon.eol.dt.interpreter.EolInterpreter"
             icon="icons/eol.png"
             label="EOL">
       </languageInterpreter>
