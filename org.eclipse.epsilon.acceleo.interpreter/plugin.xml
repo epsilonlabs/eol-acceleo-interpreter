@@ -9,12 +9,5 @@
             label="EOL">
       </languageInterpreter>
    </extension>
-   <extension
-         point="org.eclipse.acceleo.ui.language.interpreter">
-      <languageInterpreter
-            class="org.eclipse.epsilon.acceleo.interpreter.AbstractLanguageInterpreter:2"
-            label="org.eclipse.epsilon.acceleo.interpeter.languageInterpreter2">
-      </languageInterpreter>
-   </extension>
 
 </plugin>
